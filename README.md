@@ -112,5 +112,3 @@ To avoid running the export command every time, add it to your shell configurati
 ### You're all set!
 
 Once the environment variable is set correctly, Python will be able to find the `libZ1_SDK_x86_64.so` file and load the `unitree_arm_interface` module successfully.
-
-If you need help with the next steps or want to add this fix to a setup script, just let me know!
