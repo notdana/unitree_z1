@@ -61,6 +61,13 @@ After this, you should be ready to begin working with the Z1 SDK in your develop
 
 ### 6. Insert this repo in the z1_sdk folder
 
+Navigate inside the z1_sdk folder and git clone this repo
+
+```bash
+cd z1_sdk
+git clone https://github.com/notdana/unitree_z1_py_examples.git
+```
+
 # Fixing ImportError for `unitree_arm_interface`: Missing `libZ1_SDK_x86_64.so`
 
 When running the python examples , you may encounter the following error:
