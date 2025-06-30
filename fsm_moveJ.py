@@ -13,6 +13,7 @@ arm.loopOn()
 #This goes to a saved position of "0.0, 1.5, -1.0, -0.54, 0.0, 0.0"
 arm.labelRun("forward")
 
+arm.startTrack(armState.JOINTCTRL)
 
 
 # arm.MoveJ(joint_positions, gripper_position, speed)
