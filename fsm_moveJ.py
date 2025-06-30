@@ -23,19 +23,19 @@ gripper_pos = 0.0
 jnt_speed = 2.0
 
 
-#Joint 1 Position
+#Actual Joint Positions [J6, ]
 
 
 print("position1")
 arm.MoveJ([0.5,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 print("position2")
-arm.MoveJ([0.4,0.1,0.1,0.5,-0.2,0.4], gripper_pos, jnt_speed)
+arm.MoveJ([0.4,0.2,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 print("position3")
-arm.MoveJ([0.3,0.1,0.1,0.5,-0.2,0.3], gripper_pos, jnt_speed)
+arm.MoveJ([0.3,0.3,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 print("position4")
-arm.MoveJ([0.2,0.1,0.1,0.5,-0.2,0.2], gripper_pos, jnt_speed)
+arm.MoveJ([0.2,0.4,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 print("position5")
-arm.MoveJ([0.1,0.1,0.1,0.5,-0.2,0.1], gripper_pos, jnt_speed)
+arm.MoveJ([0.1,0.5,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 
 
 
