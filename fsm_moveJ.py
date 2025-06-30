@@ -20,7 +20,7 @@ arm.startTrack(armState.JOINTCTRL)
 
 # Gripper Positions (-1.5 > 0.0) (Opened > Closed)
 gripper_pos = 0.0
-jnt_speed = 2.0
+jnt_speed = 1.0
 
 
 #Actual Joint Positions [J6, ]
