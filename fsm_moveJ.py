@@ -11,7 +11,7 @@ armState = unitree_arm_interface.ArmFSMState
 arm.loopOn()
 
 
-#arm.startTrack(armState.JOINTCTRL)
+arm.startTrack(armState.JOINTCTRL)
 
 #This goes to a saved position of "0.0, 1.5, -1.0, -0.54, 0.0, 0.0"
 arm.labelRun("forward")
@@ -30,7 +30,7 @@ arm.MoveJ([0.0, 1.5, -1.0, -0.54, 0.0, 0.0], gripper_pos, jnt_speed)
 # gripper_pos = 0.0
 # arm.MoveC([0,0,0,0.45,0,0.4], [0,0,0,0.45,0.2,0.2], gripper_pos, cartesian_speed)
 
-time.sleep(30)
+time.sleep(10)
 
 arm.backToStart()
 arm.loopOff()
