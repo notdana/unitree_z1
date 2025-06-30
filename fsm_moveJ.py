@@ -25,22 +25,22 @@ jnt_speed = 2.0
 
 
 print("position1")
-arm.MoveJ([0.5,0.1,0.1,0.5,-0.2,0.5], 0.1, jnt_speed)
+arm.MoveJ([0.5,0.1,0.1,0.5,-0.2,0.5], -0.5, jnt_speed)
 time.sleep(2)
 print("position2")
-arm.MoveJ([0.4,0.1,0.1,0.5,-0.2,0.5], 0.2, jnt_speed)
+arm.MoveJ([0.4,0.1,0.1,0.5,-0.2,0.5], -1.0, jnt_speed)
 time.sleep(2)
 print("position3")
-arm.MoveJ([0.3,0.1,0.1,0.5,-0.2,0.5], 0.3, jnt_speed)
+arm.MoveJ([0.3,0.1,0.1,0.5,-0.2,0.5], -1.5, jnt_speed)
 time.sleep(2)
 print("position4")
-arm.MoveJ([0.2,0.1,0.1,0.5,-0.2,0.5], -0.1, jnt_speed)
+arm.MoveJ([0.2,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 time.sleep(2)
 print("position4")
-arm.MoveJ([0.1,0.1,0.1,0.5,-0.2,0.5], -0.2, jnt_speed)
+arm.MoveJ([0.1,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 time.sleep(2)
 print("position4")
-arm.MoveJ([0.0,0.1,0.1,0.5,-0.2,0.5], -0.3, jnt_speed)
+arm.MoveJ([0.0,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
 time.sleep(2)
 
 
