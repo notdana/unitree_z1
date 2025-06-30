@@ -5,7 +5,6 @@ import time
 import numpy as np
 np.set_printoptions(precision=3, suppress=True)
 
-
 arm =  unitree_arm_interface.ArmInterface(hasGripper=True)
 
 arm.loopOn()
