@@ -23,20 +23,9 @@ cmake .. && make
 
 ---
 
-### 3. Build the Z1 Controller
+### 3. Clone and Build the Z1 SDK
 
 Navigate to the Z1 Controller folder and build it:
-
-```bash
-cd ../../z1_controller
-mkdir build && cd build
-cmake .. && make
-```
-
-
-### 4. Clone and Build the Z1 SDK
-
-First, clone the controller repository:
 
 ```bash
 git clone https://github.com/unitreerobotics/z1_sdk.git
@@ -45,21 +34,7 @@ mkdir build && cd build
 cmake .. && make
 ```
 
----
-
-### 5. Build the Z1 SDK
-
-Navigate to the SDK folder and build it:
-
-```bash
-cd ../../z1_sdk
-mkdir build && cd build
-cmake .. && make
-```
-
-After this, you should be ready to begin working with the Z1 SDK in your development environment.
-
-### 6. Insert this repo in the z1_sdk folder
+### 4. Insert this repo in the z1_sdk folder
 
 Navigate inside the z1_sdk folder and git clone this repo
 
@@ -67,6 +42,12 @@ Navigate inside the z1_sdk folder and git clone this repo
 cd z1_sdk
 git clone https://github.com/notdana/unitree_z1_py_examples.git
 ```
+
+---
+
+After this, you should be ready to begin working with the Z1 SDK in your development environment.
+
+
 
 # Fixing ImportError for `unitree_arm_interface`: Missing `libZ1_SDK_x86_64.so`
 
