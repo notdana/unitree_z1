@@ -20,24 +20,28 @@ arm.startTrack(armState.JOINTCTRL)
 gripper_pos = 0.0
 jnt_speed = 2.0
 
+
+#Joint 1 Position
+
+
 print("position1")
 arm.MoveJ([0.5,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 print("position2")
 arm.MoveJ([0.4,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 print("position3")
 arm.MoveJ([0.3,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 print("position4")
 arm.MoveJ([0.2,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 print("position4")
 arm.MoveJ([0.1,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 print("position4")
 arm.MoveJ([0.0,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
-time.sleep(5)
+time.sleep(2)
 
 
 
