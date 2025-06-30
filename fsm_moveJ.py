@@ -19,9 +19,8 @@ arm.labelRun("forward")
 gripper_pos = 0.0
 jnt_speed = 2.0
 
-arm.MoveJ([0.0, 1.5, -1.0, -0.54, 0.0, 0.0], gripper_pos, jnt_speed)
-time.sleep(10)
-arm.MoveJ([1.0, 1.5, -1.0, -0.54, 0.0, 0.0], gripper_pos, jnt_speed)
+arm.MoveJ([0.5,0.1,0.1,0.5,-0.2,0.5], gripper_pos, jnt_speed)
+arm.MoveJ([-0.5,-0.1,-0.1,-0.5,0.2,-0.5], gripper_pos, jnt_speed)
 
 
 arm.backToStart()
